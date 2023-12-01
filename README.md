@@ -1,10 +1,11 @@
 # rust
 # REST API com Rust
 
-Este é um projeto de exemplo que demonstra como criar uma API REST usando Rust.
+Este é um projeto CRUD de exemplo que demonstra como criar uma API REST usando Rust.
 
 ## Tecnologias utilizadas
 
+- SQLite
 - Linguagem de programação: Rust
 - Framework web: Axum
 - Serialização: Serde
@@ -17,6 +18,7 @@ A API suporta as seguintes operações CRUD em um recurso de produto:
 
 - GET /products: Lista todos os produtos
 - POST /products: Adiciona um novo produto
+- PUT /products/{id}: Atualiza um produto pelo ID
 - DELETE /products/{id}: Deleta um produto pelo ID
 
 ## Como executar

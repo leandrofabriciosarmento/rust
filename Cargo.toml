@@ -6,6 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+lazy_static = "1.4.0"
+rusqlite = "0.30.0"
+r2d2 = "0.8.9"
+r2d2_sqlite = "0.23.0"
 axum = "0.6"
 tokio = { version = "1.22.0", features = ["full"] }
 serde = { version = "1.0.149", features = ["derive"] }
